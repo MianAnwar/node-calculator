@@ -1,5 +1,5 @@
 {
-  "name": "testx",
+  "name": "testxcalculator",
   "version": "1.0.0",
   "description": "Here we test the npm",
   "type": "module",
@@ -11,5 +11,10 @@
   "scripts": {
     "start": "node ."
   },
-  "bin": "./index.js"
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
 }
