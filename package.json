@@ -1,6 +1,6 @@
 {
   "name": "testxcalculator",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "Here we test the npm",
   "type": "module",
   "repository": {
@@ -16,5 +16,9 @@
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3"
   }
 }
